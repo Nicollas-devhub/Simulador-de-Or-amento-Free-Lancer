@@ -21,9 +21,5 @@ Este projeto simula a contratação de serviços de TI, permitindo que o usuári
 - CSS
 - JavaScript
 
-##  Como executar
-1. Baixe o projeto
-2. Abra o index.html no navegador
-
 ## Autor
 Nicollas Azalim(https://github.com/Nicollas-devhub/Simulador-de-Or-amento-Free-Lancer)
