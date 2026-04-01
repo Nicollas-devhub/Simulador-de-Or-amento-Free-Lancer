@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulador Freelancer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <h1> Simulador de Orçamento Freelancer</h1>
+
+    <div class="container">
+
+        <div class="card">
+            <h3>Landing Page</h3>
+            <p>R$500 </p>
+            <button onclick="adicionarServico(500, 'Landing Page')">Adicionar</button>
+        </div>
+
+        <div class="card">
+            <h3>Site Institucional</h3>
+            <p>R$ 1200</p>
+            <button onclick="adicionarServico(1200, 'Site Institucional')">Adicionar</button>
+        </div>
+
+        <div class="card">
+            <h3>E-commerce</h3>
+            <p>R$ 2500</p>
+            <button onclick="adicionarServico(2500, 'E-commerce')">Adicionar</button>
+        </div>
+
+        <div class="card">
+            <h3>Banco de Dados</h3>
+            <p>R$ 700</p>
+            <button onclick="adicionarServico(700, 'Banco de Dados')">Adicionar</button>
+        </div>
+
+        <div class="card">
+            <h3>Integração API</h3>
+            <p>R$ 800</p>
+            <button onclick="adicionarServico(800, 'Integração API')">Adicionar</button>
+        </div>
+
+        <div class="card">
+            <h3>Manutenção Mensal</h3>
+            <p>R$ 300</p>
+            <button onclick="adicionarServico(300, 'Manutenção')">Adicionar</button>
+        </div>
+
+    </div>
+
+    <div class="resumo">
+        <h2>Total: R$ <span id="total">0</span></h2>
+
+        <h3>Serviços selecionados:</h3>
+        <ul id="lista"></ul>
+
+        <button class="limpar" onclick="limpar()">Limpar</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
